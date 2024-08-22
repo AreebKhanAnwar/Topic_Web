@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #539ba6; */
+    /* background-image: linear-gradient(
+        to top, 
+        #539ba6 0%,
+        #539ba6 50%,
+        #82CFC7 50%,
+        #82CFC7 100%
+        ); */
+    background: rgb(83,155,166);
+    background: linear-gradient(180deg, rgba(83,155,166,1) 50%, rgba(130,207,199,1) 50%);
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+nav a .logo{
+    mix-blend-mode: multiply;
+    height: 50px;
+}
+nav a i{
+   font-size: 20px;
+}
+#home{
+    color: #27687A;
+}
+hr{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    color: whitesmoke;
+}
+.discover{
+    font-size: 50px;
+}
+.platform{
+    color: #175373;
+    font-size: larger;
+}
+.input{
+    outline: none;
+}
+.bton{
+    background: #00000000;
+    border: none;
+    font-size: 25px;
+}
+.bton_2{
+    background: #82cfc7;
+}
+.bton_2:hover{
+    background: #82cfc7;
+}
+.card_2{
+    background-image: url(./freelancing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(2px); */
+    background-color: #27687a62;
+    
+}
+.card_2 .card-body .icon{
+    margin-bottom: 100px;
+}
+
+
