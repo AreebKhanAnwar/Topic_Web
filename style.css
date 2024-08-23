@@ -21,6 +21,10 @@ body{
     background-attachment: fixed;
 
 }
+.nav_top{
+    background-color: rgba(83,155,166,1);
+    z-index: 10;
+}
 nav a .logo{
     mix-blend-mode: multiply;
     height: 50px;
@@ -36,6 +40,8 @@ hr{
     top: 50px;
     width: 100%;
     color: whitesmoke;
+    position: fixed;
+    z-index: 12;
 }
 .discover{
     font-size: 50px;
